@@ -1,6 +1,10 @@
+.vrapper{
+    width: 1200px;
+    margin: 0 auto;
+}
 header{
-    background-color: rgb(42, 99, 165);
-    height: 200px;
+   
+    height: auto;
 }
 footer{
     background-color: darkgrey;

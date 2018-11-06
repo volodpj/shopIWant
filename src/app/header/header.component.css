@@ -1,4 +1,22 @@
+
+.header-main{
+    padding: 10px;
+    height: 45px;
+    background-color: gainsboro;
+    display: flex;
+}
 nav{
     height: 60px;
     background-color: darkgreen; 
+ }
+ .top-meny ul{
+    display: flex;
+    padding: 7px;
+ }
+ .top-meny > ul > li{
+     margin-right: 10px;
+ }
+ .logo > a{
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-size: 24px;
  }
