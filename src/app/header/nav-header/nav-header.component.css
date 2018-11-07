@@ -1,0 +1,14 @@
+.nav-main{
+    display: flex;
+    justify-content: space-around;
+}
+.nav-button{
+    width: 120px;
+    height: 50px;
+    color: blanchedalmond;
+}
+.nav-button:hover{
+    background-color: yellow;
+    transition: 0.7s;
+    color: black;
+}
