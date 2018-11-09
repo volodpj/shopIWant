@@ -2,18 +2,16 @@
 .header-main{
     padding: 10px;
     height: 45px;
-    background-color: black;
+    background-color: #dbdbdb;
     display: flex;
     justify-content: space-between;
-    color: cornsilk;
+    color: rgb(12, 6, 73);
 }
-nav{
-    height: 60px;
-    background-color: black; 
- }
+
  .top-meny ul{
     display: flex;
     padding: 7px;
+    background-color: #dbdbdb;
  }
  .top-meny > ul > li{
      margin-right: 10px;
@@ -25,4 +23,8 @@ nav{
  .contact-header-top{
      display: flex;
      justify-content: space-between;
+ }
+ nav{
+    height: 60px;
+    background-color: #dbdbdb; 
  }

@@ -14,7 +14,5 @@ export class ItemComponent implements OnInit {
 
   ngOnInit() {
   }
-click1(){
-  console.log(this.item.name);
-}
+
 }

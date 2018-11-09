@@ -1,4 +1,6 @@
 <div class="item-box">
-  <div class="item-img"></div>
-  <div class="item-name"><button (click) = "click1()">click</button></div>
+  <img [src]="item.imgGoods" alt="">
+  <div class="item-name">{{item.name}}</div>
+  <div class="item-descript">{{item.description}}</div>
+  <div class="item-price">{{item.price}}</div>
 </div>

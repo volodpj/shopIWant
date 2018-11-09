@@ -1,5 +1,6 @@
 export class Item{
     name: string;
+    imgGoods: string;
     id: number;
     availability: boolean;
     price: number;
@@ -11,9 +12,10 @@ export class Item{
     priceWeek: boolean;
     recommendations: boolean;
     newItem: boolean;
-    constructor(name, id, availability, price, description, producer, sectionHierarchy, unitHierarchy,
+    constructor(name, imgGoods, id, availability, price, description, producer, sectionHierarchy, unitHierarchy,
         topTrade, priceWeek, recommendations, newItem){
         this.name = name;
+        this.imgGoods = imgGoods;
         this.id = id;
         this.availability = availability;
         this.price = price;
