@@ -1,18 +1,40 @@
 <div class="main-main">
   <section class="slider"></section>
+
   <section class="top-trade">
     <div class="title-section">Топ продаж</div>
     <div class="section-box">
-      <div  *ngFor = "let item of items">
+      <div  *ngFor = "let item of itemsTopTrade">
         <div><app-item [item] = "item"></app-item></div>  
       </div>
     </div>
   </section>
+  
   <section class="price-week">
-
+    <div class="title-section">Ціна тижня</div>
+    <div class="section-box">
+      <div  *ngFor = "let item of itemsPriceWeek">
+        <div><app-item [item] = "item"></app-item></div>  
+      </div>
+    </div>
   </section>
-  <section class="recommendations"></section>
-  <section class="new-goods"></section>
+
+  <section class="recommendations">
+    <div class="title-section">Рекомеендовано</div>
+    <div class="section-box">
+      <div  *ngFor = "let item of itemsRecommendation">
+        <div><app-item [item] = "item"></app-item></div>  
+      </div>
+    </div>
+  </section>
+  <section class="new-goods">
+    <div class="title-section">Новинки</div>
+    <div class="section-box">
+      <div  *ngFor = "let item of itemsNew">
+        <div><app-item [item] = "item"></app-item></div>  
+      </div>
+    </div>
+  </section>
   <section class="blog"></section>
   <section class="about"></section>
 </div>

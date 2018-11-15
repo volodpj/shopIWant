@@ -10,10 +10,19 @@ import { ItemsService } from '../service/items.service';
 export class MainComponent implements OnInit {
 
 items: Item[];
+itemsTopTrade: Item[] = [];
+itemsPriceWeek: Item[] = [];
+itemsRecommendation: Item[] = [];
+itemsNew: Item[] = [];
   constructor(private ItemsService: ItemsService) { }
 
   ngOnInit() {
     this.items = this.ItemsService.getItems();
+    this.itemsTopTrade = this.ItemsService.getItemsTop();
+    this.itemsPriceWeek = this.ItemsService.getItemsPriceWeek();
+    this.itemsRecommendation = this.ItemsService.getItemsRecommendation();
+    this.itemsNew = this.ItemsService.getItemsNew();
+
   }
 
 }

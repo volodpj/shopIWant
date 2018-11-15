@@ -1,5 +1,9 @@
 .section-box{
    display: flex;
+   justify-content: space-between;
   
+}
+.title-section{
+    text-align: center;
 }
 
