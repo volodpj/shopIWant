@@ -9,20 +9,30 @@ import { ItemsService } from '../service/items.service';
 })
 export class MainComponent implements OnInit {
 
+
 items: Item[];
 itemsTopTrade: Item[] = [];
 itemsPriceWeek: Item[] = [];
 itemsRecommendation: Item[] = [];
 itemsNew: Item[] = [];
+
+itemsSort(box, serviceItemsArrey){
+  let arrey: Item[] = [];
+  for(var i = 0; i < serviceItemsArrey.length; i++){
+    if(serviceItemsArrey[i][box]){
+      arrey.push(serviceItemsArrey[i]);
+    }
+  }
+  return arrey;
+}
   constructor(private ItemsService: ItemsService) { }
 
   ngOnInit() {
     this.items = this.ItemsService.getItems();
-    this.itemsTopTrade = this.ItemsService.getItemsTop();
-    this.itemsPriceWeek = this.ItemsService.getItemsPriceWeek();
-    this.itemsRecommendation = this.ItemsService.getItemsRecommendation();
-    this.itemsNew = this.ItemsService.getItemsNew();
-
+    this.itemsTopTrade = this.itemsSort("topTrade", this.items);
+    this.itemsPriceWeek = this.itemsSort("priceWeek", this.items);
+    this.itemsRecommendation = this.itemsSort("recommendations", this.items);
+    this.itemsNew = this.itemsSort("newItem", this.items);
   }
 
 }

@@ -1,13 +1,18 @@
 
 .header-main{
     padding: 10px;
-    height: 45px;
+    height: 70px;
     background-color: #dbdbdb;
     display: flex;
     justify-content: space-between;
     color: rgb(12, 6, 73);
 }
-
+.top-meny{
+    display: flex;
+    background-color: #dbdbdb;
+    justify-content: space-between;
+    
+}
  .top-meny ul{
     display: flex;
     padding: 7px;
@@ -17,8 +22,8 @@
      margin-right: 10px;
  }
  .logo > a{
-     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-     font-size: 24px;
+    font-family: 'Black Han Sans', sans-serif;
+    font-size: 24px;
  }
  .contact-header-top{
      display: flex;
@@ -26,5 +31,14 @@
  }
  nav{
     height: 60px;
-    background-color: #dbdbdb; 
+    background-color: #dbdbdb;
+    margin-top: 10px;
+ }
+ .singUp{
+     display: flex;
+     padding: 7px;
+ }
+ .singUp > p{
+     margin-left: 10px;
+     
  }

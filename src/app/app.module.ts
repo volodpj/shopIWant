@@ -9,6 +9,7 @@ import { FooterComponent } from './footer/footer.component';
 import { NavHeaderComponent } from './header/nav-header/nav-header.component';
 import { ItemComponent } from './items/item/item.component';
 import { ItemsService } from './service/items.service';
+import { SignUpComponent } from './header/sign-up/sign-up.component';
 
 
 
@@ -21,6 +22,7 @@ import { ItemsService } from './service/items.service';
     FooterComponent,
     NavHeaderComponent,
     ItemComponent,
+    SignUpComponent,
     
   ],
   imports: [
