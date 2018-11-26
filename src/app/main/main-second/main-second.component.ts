@@ -15,7 +15,7 @@ export class MainSecondComponent implements OnInit {
 
   ngOnInit() {
     this.unitHierarchi = this.unitService.getUnitService();
-    console.log(this.unitHierarchi);
+    
   }
 
 }

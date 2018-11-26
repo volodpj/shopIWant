@@ -12,6 +12,8 @@ import { ItemsService } from './service/items.service';
 import { SignUpComponent } from './header/sign-up/sign-up.component';
 import { UnitHierarchyComponent } from './items/unit-hierarchy/unit-hierarchy.component';
 import { MainSecondComponent } from './main/main-second/main-second.component';
+import { AppRoutingModule, ROUTES } from './app-routing.module';
+import { RouterModule } from '@angular/router';
 
 
 
@@ -31,7 +33,8 @@ import { MainSecondComponent } from './main/main-second/main-second.component';
   ],
   imports: [
     BrowserModule,
-    
+    AppRoutingModule,
+    RouterModule.forRoot(ROUTES),
     
   ],
   providers: [ItemsService],
