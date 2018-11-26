@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
+import { UnitHierarchy } from 'src/app/model/unitHierarchy.model';
 
 @Component({
   selector: 'app-unit-hierarchy',
@@ -7,6 +8,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class UnitHierarchyComponent implements OnInit {
 
+  @Input()
+  unit: UnitHierarchy;
   constructor() { }
 
   ngOnInit() {

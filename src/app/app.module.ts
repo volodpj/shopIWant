@@ -11,6 +11,7 @@ import { ItemComponent } from './items/item/item.component';
 import { ItemsService } from './service/items.service';
 import { SignUpComponent } from './header/sign-up/sign-up.component';
 import { UnitHierarchyComponent } from './items/unit-hierarchy/unit-hierarchy.component';
+import { MainSecondComponent } from './main/main-second/main-second.component';
 
 
 
@@ -25,6 +26,7 @@ import { UnitHierarchyComponent } from './items/unit-hierarchy/unit-hierarchy.co
     ItemComponent,
     SignUpComponent,
     UnitHierarchyComponent,
+    MainSecondComponent,
     
   ],
   imports: [

@@ -1,8 +1,10 @@
 export class UnitHierarchy {
-    HierarchyImg: string
-    HierarchyName: string
-    constructor(HierarchyImg, HierarchyName){
-        this.HierarchyImg = HierarchyImg
-        this.HierarchyName = HierarchyName
+    hierarchyImg: string
+    hierarchyName: string
+    katehoryName: string
+    constructor(hierarchyImg, hierarchyName, kategoryName){
+        this.hierarchyImg = hierarchyImg
+        this.hierarchyName = hierarchyName
+        this.katehoryName = kategoryName
     }
 }
