@@ -1,12 +1,12 @@
 .item-box{
     width: 150px;
     height: 200px;
-    
     padding: 5px;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
     align-items: center;
+    border: 1px solid white;
     
 }
 .item-box > img{
@@ -15,5 +15,6 @@
     
 }
 .item-box:hover{
-    border: 1px solid;
+    border: 1px solid red;
+    transition: 0.7s;
 }
