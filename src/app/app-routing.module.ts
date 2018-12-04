@@ -15,6 +15,6 @@ export class AppRoutingModule { }
 
 export const ROUTES: Routes = [
   { path: "baseMain", component: MainComponent },
-  { path: "secondMain", component: MainSecondComponent },
+  { path: "secondMain/:id", component: MainSecondComponent },
   { path: "", redirectTo: "/baseMain", pathMatch: "full"},
 ]
