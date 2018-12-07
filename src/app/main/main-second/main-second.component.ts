@@ -24,20 +24,23 @@ export class MainSecondComponent implements OnInit {
 
   ngOnInit() {
     this.unitHierarchi = this.unitService.getUnitService();
-    this.sortUnit(this.id, this.unitHierarchi);
-    
   }
+  
+  ngDoCheck(){
+    this.sortUnit(this.id, this.unitHierarchi);
+  }
+  
 
   test(){
     console.log(this.id);
-    console.log(this.subscription);
+    //console.log(this.subscription);
   }
   sortUnit(id, unitArrey){
+    this.unitSortish.length = 0;
     for(let i = 0; i < unitArrey.length; i++){
-      console.log(id);
-      if(unitArrey[i][id]){
+      if(unitArrey[i]["sectionHierarchyUnit"] == id){
         this.unitSortish.push(unitArrey[i]);
-        console.log(this.unitSortish);
+        
       }
     }
 }
