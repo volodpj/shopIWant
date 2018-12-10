@@ -2,12 +2,12 @@ export class Item{
     name: string;
     imgGoods: string;
     id: number;
-    availability: boolean;
+    availability: boolean;      //наявність
     price: number;
     description: string;
-    producer: string;
-    sectionHierarchy: string;
-    unitHierarchy: string;
+    producer: string;           //виробник
+    sectionHierarchy: string;   //розділ
+    unitHierarchy: string;      //підрозділ
     topTrade: boolean;
     priceWeek: boolean;
     recommendations: boolean;

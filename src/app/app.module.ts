@@ -14,6 +14,7 @@ import { UnitHierarchyComponent } from './items/unit-hierarchy/unit-hierarchy.co
 import { MainSecondComponent } from './main/main-second/main-second.component';
 import { AppRoutingModule, ROUTES } from './app-routing.module';
 import { RouterModule } from '@angular/router';
+import { ItemListComponent } from './main/item-list/item-list.component';
 
 
 
@@ -29,6 +30,7 @@ import { RouterModule } from '@angular/router';
     SignUpComponent,
     UnitHierarchyComponent,
     MainSecondComponent,
+    ItemListComponent,
     
   ],
   imports: [
