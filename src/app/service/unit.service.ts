@@ -7,7 +7,7 @@ import { UnitHierarchy } from '../model/unitHierarchy.model';
 export class UnitService {
 
   private unit: UnitHierarchy[] = [
-    new UnitHierarchy("https://abinails.com.ua/image/data/zakon/16_1897.jpg", "Ноутбуки", "computer", "leptop"),
+    new UnitHierarchy("https://abinails.com.ua/image/data/zakon/16_1897.jpg", "Ноутбуки", "computer", "laptop"),
     new UnitHierarchy("https://abinails.com.ua/image/data/zakon/16_1897.jpg", "Планшети", "computer", "tablet"),
     new UnitHierarchy("https://abinails.com.ua/image/data/zakon/16_1897.jpg", "Аксесуари для компютерів", "computer", "computer accessories"),
     new UnitHierarchy("https://abinails.com.ua/image/data/zakon/16_1897.jpg", "Комплектуючі", "computer", "computer component"),

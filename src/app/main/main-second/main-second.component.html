@@ -1,5 +1,5 @@
 <div class="box">
-  <div *ngFor = "let unit of unitSortish" [routerLink] = "['/itemList', unit['hierarchyName']]">
+  <div *ngFor = "let unit of unitSortish" [routerLink] = "['/itemList', unit['unitName']]">
     <div> <app-unit-hierarchy [unitHierarchy] = "unit"></app-unit-hierarchy> </div>
   </div>
 </div>

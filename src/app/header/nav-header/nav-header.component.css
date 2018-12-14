@@ -1,16 +1,17 @@
 .nav-main{
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 .nav-button{
-    width: 130px;
-    height: 50px;
-    color: rgb(34, 7, 59);
+    width: 140px;
+    font-weight: 700;
+    color: rgb(82, 78, 78);
     text-align: center;
     padding: 10px;
 }
 .nav-button:hover{
-    background-color: yellow;
-    transition: 0.7s;
+    cursor: pointer;
+    transition: 0.3s;
     color: black;
 }

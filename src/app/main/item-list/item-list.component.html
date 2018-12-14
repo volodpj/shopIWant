@@ -1,4 +1,8 @@
-<p>
-  item-list works!
-</p>
+<div class="box">
+  <div  *ngFor = "let item of itemsSortItemList">
+    <div><app-item [item] = "item"></app-item></div>  
+  </div>
+
+</div>
+
 <button (click) = "test()">test</button>
